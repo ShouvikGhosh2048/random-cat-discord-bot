@@ -14,7 +14,7 @@ export async function GET(request: Request) {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            content: `https://cataas.com/cat/${_id}`
+            content: `https://cataas.com/cat/${id}`
         })
     });
 
