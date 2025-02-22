@@ -18,5 +18,5 @@ export async function GET(request: Request) {
         })
     });
 
-    return new Response(`${_id}`);
+    return new Response(`${id}`);
 }
